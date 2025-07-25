@@ -1,5 +1,7 @@
 # PowerBI-Tweet-Dashboard
-**Task 1: Data Cleaning & Transformation**
+**Task 1: Develop a chart that displays tweets with the highest engagement rates (top 10%). Include only those tweets that have received more than 50 likes and were posted on weekdays and this graph should work only between 3PM IST to 5 PM IST apart from that time we should not show this graph in dashboard itself as well as tweet character count should be below 30.**
+
+Data Cleaning & Transformation**
 
 **Description:**
 Cleaned raw tweet data by removing invalid timestamps and null values.
@@ -17,12 +19,15 @@ Word Count > 50
 Odd Date
 Time between 6 PM – 11 PM IST
 
-**✅ Task 2: Interactive Scatter Chart Visual**
+**✅ Task 2: Plot a scatter chart to analyse the relationship between media engagements and media views for tweets that received more than 10 replies. Highlight tweets with an engagement rate above 5% and this graph should work only between 6PM IST to 11 PM IST apart from that time we should not show this graph in dashboard itself and the tweet date should be odd number as well as tweet word count be above 50.**
+
+
 
 **Description:**
 Built a scatter chart to visualize the relationship between:
 Media Views (X-axis)
 Media Engagements (Y-axis)
+
 Bubble size mapped to Engagement Rate
 Added High_Engagement as legend
 Enabled interaction filters to restrict chart visibility to:
@@ -32,7 +37,7 @@ Post time between 6–11 PM IST
 Word Count > 50
 Odd-numbered dates
 
-**✅ Task 3: Dashboard Design & Slicers**
+**✅ Task 3: Create a dual-axis chart that shows the number of media views and media engagements by the day of the week for the last quarter. Highlight days with significant spikes in media interactions. this graph should work only between 3PM IST to 5 PM IST and 7 AM to 11AM apart from that time we should not show this graph in dashboard itself and the tweet impression should be even number and tweet date should be odd number as well as tweet character count should be above 30 and need to remove tweet word which has letter 'H'.**
 
 **Description:**
 Designed a dark-themed Power BI dashboard with:
